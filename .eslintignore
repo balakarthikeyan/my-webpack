@@ -1,0 +1,12 @@
+# ignore all files in the node_modules directory
+node_modules/
+
+# ignore all files in the build directory
+build/
+dist/
+
+# ignore all HTML files
+*.html
+
+# ignore all files that end with .test.js
+**/*.test.js

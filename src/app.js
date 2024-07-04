@@ -14,7 +14,7 @@ console.log(b);
 
 getUsers().then((json) => console.log(json));
 
-/* eslint-disable no-unused-vars */
+ 
 let heading = "Integrating ESLint--Challenge";
 
 let double = (num) => {

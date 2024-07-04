@@ -11,7 +11,7 @@
     "prettier": "prettier src --check",
     "prettier:fix": "npm run prettier -- --write",
     "format": "npm run prettier:fix && npm run lint:fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "keywords": [
     "webpack-tutorial",
@@ -33,6 +33,7 @@
     "eslint-webpack-plugin": "^4.2.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.6.0",
+    "jest": "^29.7.0",
     "prettier": "3.3.2",
     "sass": "^1.77.6",
     "sass-loader": "^14.2.1",

@@ -1,0 +1,11 @@
+# ignore all files and directories with the .git prefix
+.git*
+
+# ignore the node_modules directory
+node_modules/
+
+# ignore all files with the .log extension
+*.log
+
+# ignore the Dockerfile itself
+Dockerfile
