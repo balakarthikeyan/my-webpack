@@ -44,10 +44,16 @@ npm i eslint --save-dev
 npm i eslint-webpack-plugin --save-dev
 npm i @babel/eslint-parser --save-dev
 npm i eslint-config-prettier eslint-plugin-prettier --save-dev
-npm install --save-exact prettier --save-dev 
+npm i --save-exact prettier --save-dev 
 npm i file-loader --save-dev
 npm i clean-webpack-plugin --save-dev
 npm i jest --save-dev 
+npm i webpack-bundle-analyzer --save-dev
+npm i friendly-errors-webpack-plugin --save-dev
+npm i postcss postcss-import postcss-loader postcss-preset-env --save-
+npm i stylelint stylelint-webpack-plugin --save-dev
+npm i stylelint-config-standard --save-dev
+npm i mini-css-extract-plugin cssnano --save-dev
 ```
 
 ## Clean & Audit
